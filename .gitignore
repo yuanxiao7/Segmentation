@@ -1,0 +1,3 @@
+# 忽略 not_commit 文件下所有文件
+not_commit/
+
