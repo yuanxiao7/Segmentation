@@ -1,3 +1,7 @@
 # 忽略 not_commit 文件下所有文件
 not_commit/
+PaddleSeg/   # 项目文件
+submit/      # 模型推理结果
+submit1/
+
 
