@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mnist手写数字识别</title>
+    <style>
+        .b{
+            text-align: center;
+        }
+    </style>
+    <style>
+        #a{
+            text-align: center;
+            /*display: table-cell;*/
+            /*vertical-align: middle;*/
+            /*width: 2000px;*/
+            /*height: 400px;*/
+            background: aquamarine;
+        }
+        #img{
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+<!--    下面这个src是引入jQuery这个包-->
+    <script src="https://cdn.staticfile.org/jquery/1.8.3/jquery.js"></script>
+</head>
+<body>
+
+    <h1 align="center">Mnist手写数字识别</h1>
+<!--    <img src="https://blog.keter.top/img/touxiang.png" alt="一张神奇的图">-->
+    <p id="a">
+        <img src="https://blog.keter.top/img/touxiang.png" alt="一张神奇的图" id="img">
+    </p>
+
+    <p class="b">
+        <input type="file" name="file">
+        <input type="button" value="上传">
+        <br />
+        <br />
+        识别结果
+        <br />
+        <br />
+         <button onclick="fun()">fun1</button>
+        <button id="b1">fun2</button>
+    </p>
+
+<script>
+    // alert("⚠未知操作");
+    var len = 16;
+    var x = 1;
+    var sun = len + x;
+    var person = {firstName: "John", lastName: "Doe"};
+    console.log(person.firstName)
+    console.log(sun)
+
+    function myFunction(a, b){
+        return a*b;
+    }
+    console.log("3, 4相乘的结果为：", myFunction(3, 4))
+
+    // 按键绑定1
+    function fun()
+    {
+        alert("按钮设置成功！")
+    }
+
+    // 这种设置比较常见
+    $('#b1').click(function (){
+        $('#b1').html('啊哈哈哈哈，搞定！')
+    })
+</script>
+</body>
+</html>
